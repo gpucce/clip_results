@@ -1,0 +1,1 @@
+{"dataset": "mscoco_captions", "model": "selfsustain_RN50", "pretrained": "../open_clip/isti_test/2023_03_27-15_38_58-model_selfsustain_RN50-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt", "task": "zeroshot_retrieval", "metrics": {"image_retrieval_recall@5": 0.322471022605896, "text_retrieval_recall@5": 0.3905999958515167}, "language": "en"}

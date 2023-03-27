@@ -1,0 +1,6 @@
+dataset,model_fullname,language,pretrained,model,image_retrieval_recall@5,text_retrieval_recall@5,task
+mscoco_captions,selfsustain_ViT-B-32 ../open_clip/isti_test/2023_03_24-15_55_34-model_selfsustain_ViT-B-32-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt,en,../open_clip/isti_test/2023_03_24-15_55_34-model_selfsustain_ViT-B-32-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt,selfsustain_ViT-B-32,0.12634946405887604,0.12620000541210175,zeroshot_retrieval
+mscoco_captions,ViT-B-32 ../open_clip/vit_test/2023_03_27-12_05_56-model_ViT-B-32-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt,en,../open_clip/vit_test/2023_03_27-12_05_56-model_ViT-B-32-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt,ViT-B-32,0.11979208141565323,0.12380000203847885,zeroshot_retrieval
+mscoco_captions,selfsustain_RN50 ../open_clip/isti_test/2023_03_27-15_38_58-model_selfsustain_RN50-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt,en,../open_clip/isti_test/2023_03_27-15_38_58-model_selfsustain_RN50-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt,selfsustain_RN50,0.322471022605896,0.3905999958515167,zeroshot_retrieval
+mscoco_captions,ViT-B-32 laion400m_e32,en,laion400m_e32,ViT-B-32,0.6003598570823669,0.7645999789237976,zeroshot_retrieval
+mscoco_captions,coca_ViT-B-32 laion2B-s13B-b90k,en,laion2B-s13B-b90k,coca_ViT-B-32,0.6198320388793945,0.7814000248908997,zeroshot_retrieval

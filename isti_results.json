@@ -1,0 +1,1 @@
+{"dataset": "mscoco_captions", "model": "selfsustain_ViT-B-32", "pretrained": "../open_clip/isti_test/2023_03_24-15_55_34-model_selfsustain_ViT-B-32-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt", "task": "zeroshot_retrieval", "metrics": {"image_retrieval_recall@5": 0.12634946405887604, "text_retrieval_recall@5": 0.12620000541210175}, "language": "en"}
