@@ -1,0 +1,1 @@
+{"dataset": "mscoco_captions", "model": "RN50", "pretrained": "../open_clip/vit_test/2023_03_27-18_11_04-model_RN50-lr_0.0005-b_32-j_2-p_amp/checkpoints/epoch_21.pt", "task": "zeroshot_retrieval", "metrics": {"image_retrieval_recall@5": 0.311115562915802, "text_retrieval_recall@5": 0.3643999993801117}, "language": "en"}
